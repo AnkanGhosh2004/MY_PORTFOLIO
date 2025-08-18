@@ -220,6 +220,44 @@
     font-size: 1.1rem;
     padding: 0.6rem;
   }
+
+  .home-hero-glass {
+    flex-direction: column;
+    padding: 1.2rem 0.5rem;
+    gap: 1.2rem;
+    min-height: unset;
+    width: 98vw;
+    max-width: 100vw;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 12px 0 #56deaa33, 0 1px 8px 0 #0006;
+    margin: 1.2rem auto 1rem auto;
+  }
+  .profile-img-rect-modern {
+    width: 110px;
+    height: 140px;
+  }
+  .btn-cv-below-modern {
+    font-size: 0.95rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .home-greeting, .home-name, .home-title-oneline {
+    text-align: center;
+    width: 100%;
+  }
+  .home-hero-left-centered, .home-hero-right-centered {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .home-hero-left-arranged, .home-hero-right-arranged {
+    min-width: unset;
+    padding: 0;
+  }
+  .profile-img-rect {
+    width: 120px;
+    height: 150px;
+  }
 }
 .home-hero-glass {
   display: flex;
@@ -523,9 +561,7 @@
 .gradient-text {
   background: linear-gradient(90deg, #56deaa 20%, #1e90ff 80%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 @keyframes glowPulse {
   0% { box-shadow: 0 0 60px 0 #56deaa88, 0 0 0 8px #181c2a; }
@@ -887,9 +923,7 @@
 .gradient-text {
   background: linear-gradient(90deg, #56deaa 20%, #1e90ff 80%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 @keyframes glowPulse {
   0% { box-shadow: 0 0 60px 0 #56deaa88, 0 0 0 8px #181c2a; }
@@ -2230,6 +2264,8 @@ span {
 .portfolio-layer h4 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #e53935;
+  font-weight: bold;
 }
 
 .portfolio-layer p {
